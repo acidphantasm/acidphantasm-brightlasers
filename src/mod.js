@@ -7,7 +7,7 @@ class Mod {
         this.mod = "acidphantasm-brightlasers"; // Set name of mod so we can log it to console later
     }
 
-    postAkiLoad(container) {
+    postSptLoad(container) {
         // get the logger from the server container
         const logger = container.resolve("WinstonLogger");
         logger.info(`[${this.mod}] Loading: Laser Bundle`);
