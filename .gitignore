@@ -7,4 +7,4 @@
 build.mjs
 package-lock.json
 tsconfig.json
-/laser.bundle_unpacked/*
+/BundleFiles
